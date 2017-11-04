@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    
+}
+
+header{
+    background-color: rgb(178, 224, 228);
+}
+
+header>ul>li{
+    /* para quitar el subrayado por defecto del link */
+    display: inline-block;
+}
+
+header>ul>li>a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.principal{
+    display: inline-block;
+    padding-top: 2%;
+    background-color: white;
+}
+#bloque izquierdo{
+    width: 30%;
+}
+#bloque derecho{
+    padding-left: 10%;
+    width: 70%;
+}
+
+footer{
+    background-color: rgb(178, 224, 228);
+    text-align: center;
+}
+
+.panel-title{
+    font-size: 20px;
+    color: rgb(25, 26, 22);
+}
+
+#mis_datos_contacto{
+text-align: center;
+}
